@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #1f2937;
+    padding: 16px 240px;
+}
+ .header-left {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+ }
+.header-right {
+    display: flex;
+    justify-items: center;
+    gap: 32px;
+}
+ .nav-button {
+    border-style: none;
+    background: none;
+    font: inherit;
+    color: #ebebeb;
+    font-size: 16px;
+ }
