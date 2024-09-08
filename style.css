@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
-    height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 24px;
 
  }
@@ -30,3 +30,55 @@ header {
     color: #ebebeb;
     font-size: 16px;
  }
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px 0px;
+    gap: 48px;
+    height: 260px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin: 16px 0;
+}
+.text-about {
+    margin: 16px 0;;
+}
+
+.left-info, .right-img {
+    width: 480px;
+    font-size: 18px;
+}
+
+.right-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(145, 145, 145);
+    height: 240px;
+    border-radius: 3px;
+}
+.sign-up {
+    background-color: #3882f6;
+    font: inherit;
+    color: #f9faf8;
+    border-style: none;
+    padding: 4px 28px;
+    border-radius: 6px;
+}
+
+.sign-up:hover {
+    background-color: #3882f6;
+    font: inherit;
+    color: #f9faf8;
+    border-style: none;
+    padding: 8px 30px;
+    border-radius: 6px;
+}
+
