@@ -11,25 +11,28 @@ header {
     background-color: #1f2937;
     padding: 16px 240px;
 }
- .header-left {
+
+.header-left {
     display: flex;
     align-items: center;
     color: #f9faf8;
     font-weight: 800;
     font-size: 24px;
 
- }
+}
+
 .header-right {
     display: flex;
     gap: 32px;
 }
- .nav-button {
+
+.nav-button {
     border-style: none;
     background: none;
     font: inherit;
     color: #ebebeb;
     font-size: 16px;
- }
+}
 
 .first-row {
     display: flex;
@@ -44,20 +47,24 @@ h1 {
     color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
-}
-.text-about {
-    color:#e5e7eb;
-    font-size: 18px;
+    margin: 0;
 }
 
-.left-info, .right-img {
+.text-about {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+.left-info,
+.right-img {
     width: 480px;
     height: 250px;
 }
 
 .right-img {
     font-size: 18px;
-    color:#e5e7eb;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,16 +85,14 @@ h1 {
     color: #f9faf8;
     border-style: none;
     padding: 4px 28px;
+    margin: 4px 2px;
     border-radius: 6px;
 }
 
 .sign-up:hover {
-    background-color: #3882f6;
-    font: inherit;
-    color: #f9faf8;
-    border-style: none;
+
     padding: 8px 30px;
-    border-radius: 6px;
+    margin: 0px 0px;
 }
 
 .second-row {
@@ -113,6 +118,7 @@ h2 {
     font-size: 18px;
     color: #556672;
 }
+
 .img-box {
     box-sizing: border-box;
     border-color: #3882f6;
