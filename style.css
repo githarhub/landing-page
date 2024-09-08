@@ -36,31 +36,28 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
-    color: #f9faf8;
     gap: 48px;
     height: 400px;
 }
 
 h1 {
+    color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
-    margin: 0;
-    border:0;
-    padding: 0;
 }
 .text-about {
-    margin: 0;
-    border: 0;
-    padding: 0;
+    color:#e5e7eb;
+    font-size: 18px;
 }
 
 .left-info, .right-img {
     width: 480px;
     height: 250px;
-    font-size: 18px;
 }
 
 .right-img {
+    font-size: 18px;
+    color:#e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
