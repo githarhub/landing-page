@@ -2,23 +2,25 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
+    height: 100vh;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    justify-items: center;
     background-color: #1f2937;
     padding: 16px 240px;
 }
  .header-left {
+    display: flex;
+    align-items: center;
     color: #f9faf8;
     font-weight: 900;
     font-size: 24px;
+
  }
 .header-right {
     display: flex;
-    justify-items: center;
     gap: 32px;
 }
  .nav-button {
