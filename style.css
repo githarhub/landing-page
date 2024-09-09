@@ -167,3 +167,8 @@ h2 {
     background-color: #3882f6;
     border-radius: 14px;
 }
+
+.call, .sub-call {
+    color: white;
+    margin: 0px;
+}
