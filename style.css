@@ -129,7 +129,16 @@ h2 {
 }
 
 .third-row {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
-    padding: 80px;
+    padding: 80px 0;
 }
 
+.quote {
+    align-self: center;
+    width: 800px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
