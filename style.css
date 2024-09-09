@@ -169,13 +169,17 @@ h2 {
 }
 
 .call, .sub-call {
-    color: white;
     margin: 0px;
 }
 
 .call {
+    color: white;
     font-size: 20px;
     font-weight: 900;
+}
+
+.sub-call {
+    color: #dedede;
 }
 
 .last-sign-up {
