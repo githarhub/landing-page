@@ -193,3 +193,12 @@ h2 {
     padding: 8px 30px;
     margin: 0;
 }
+
+footer {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
