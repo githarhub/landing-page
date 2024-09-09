@@ -87,10 +87,10 @@ h1 {
     padding: 4px 28px;
     margin: 4px 2px;
     border-radius: 6px;
+    transition-duration: 0.3s;
 }
 
 .sign-up:hover {
-
     padding: 8px 30px;
     margin: 0px 0px;
 }
@@ -168,7 +168,8 @@ h2 {
     border-radius: 14px;
 }
 
-.call, .sub-call {
+.call,
+.sub-call {
     margin: 0px;
 }
 
@@ -191,6 +192,7 @@ h2 {
     margin: 4px 2px;
     border-radius: 6px;
     border-color: #ffffff;
+    transition-duration: 0.3s;
 }
 
 .last-sign-up:hover {
