@@ -177,3 +177,14 @@ h2 {
     font-size: 20px;
     font-weight: 900;
 }
+
+.last-sign-up {
+    background-color: #3882f6;
+    font: inherit;
+    color: #ededed;
+    border-style: solid;
+    padding: 4px 28px;
+    margin: 4px 2px;
+    border-radius: 6px;
+    border-color: #ffffff;
+}
