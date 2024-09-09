@@ -157,3 +157,11 @@ h2 {
     align-items: center;
     height: 300px;
 }
+
+.full-sign-up {
+    display: flex;
+    width: 900px;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 14px;
+}
